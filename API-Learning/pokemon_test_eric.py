@@ -1,7 +1,7 @@
 import requests
 # Imports the 'requests' library (third-party installed with pip inside env) so we can send HTTP requests from Python.
 
-response = requests.get("https://pokeapi.co/api/v2/pokemon/pikachu")
+response = requests.get("https://pokeapi.co/api/v2/pokemon/magikarp")
 # Sends an HTTP GET request to that URL.
 # The server sends back a Response object, which we store in the variable "response".
 # This object holds the status code, headers, and the raw body of the reply.
